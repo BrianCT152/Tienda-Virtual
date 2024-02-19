@@ -1,0 +1,128 @@
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e6e6; 
+    color: #444; 
+    position: relative;
+    min-height: 100vh;
+}
+
+header, main, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1, main h1 {
+    color: #3498db;
+}
+
+header p, main p {
+    color: #499dd4; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.btn:hover {
+    background-color: #2980b9; 
+}
+
+footer {
+    background-color: #222; 
+    color: #fff; 
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+/* Para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+}
+
+/* Para pantallas medianas */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Para pantallas grandes */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+
+    .form-group {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+body.registro-exitoso {
+    background-color: #aaffaa; 
+}
+
+
+body.login {
+    background-color: #ffd6a5; 
+}
+
+
+body.consultas {
+    background-color: #c2f0c2; 
+}
+
+
+body.comprar {
+    background-color: #ffcc99; 
+}
+
+
+body.catalogo {
+    background-color: #f0e68c; 
+}
+
+
+body.panel-admin {
+    background-color: #ccccff; 
+}

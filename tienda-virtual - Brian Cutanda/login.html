@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Tienda de Alquiler de Juguetes</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Iniciar Sesión</h1>
+        <p>¡Bienvenido de nuevo! inicia sesión con tu nombre de usuario y contraseña.</p>
+    </header>
+
+    <form method="post" action="login.php">
+        <div class="form-group">
+            <label for="usuario">Nombre de Usuario:</label>
+            <input type="text" name="usuario" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" required>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn">Iniciar Sesión</button>
+            <button><a href="index.html" class="btn">Volver al índice</a></button>
+        </div>
+        
+
+       
+    </form>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Juguetes</p>
+    </footer>
+</body>
+</html>
+

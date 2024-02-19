@@ -1,0 +1,136 @@
+
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e6e6;
+    color: #444;
+    position: relative;
+    min-height: 100vh;
+}
+
+header, main, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1, main h1 {
+    color: #3498db;
+}
+
+header p, main p {
+    color: #499dd4;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .form-group {
+        width: 100%;
+    }
+}
+
+/* Para pantallas medianas */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Para pantallas grandes */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+    .form-group {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
+.juguetes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.juguete {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.juguete h2 {
+    color: #3498db;
+}
+
+.juguete img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+.btn-comprar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}

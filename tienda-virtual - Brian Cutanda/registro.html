@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Tienda de Juguetes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Registro</h1>
+        <p>¡Únete a nosotros!</p>
+    </header>
+
+    <!-- Formulario para el registro -->
+    <form method="post" action="registro_exitoso.php">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" required>
+        </div>
+
+        <div class="form-group">
+            <label for="usuario">Nombre de Usuario:</label>
+            <input type="text" name="usuario" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dni">DNI:</label>
+            <input type="text" name="dni" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Contraseña:</label>
+            <input type="password" name="password" required>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn">Confirmar registro</button>
+        </div>
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Juguetes</p>
+    </footer>
+</body>
+</html>
+
